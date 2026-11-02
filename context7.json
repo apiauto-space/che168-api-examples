@@ -1,0 +1,16 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Che168 API examples — apiauto.space",
+  "description": "REST API with Che168 (China) used-car listings in JSON: examples in curl, Python, JavaScript and PHP",
+  "folders": ["curl", "python", "javascript", "php", "samples"],
+  "excludeFolders": [],
+  "rules": [
+    "Send the key in the X-API-Key header; base URL https://api.apiauto.space/v1",
+    "Che168 listings live in market=cn",
+    "Call the API from a server: CORS is off",
+    "Paginate with next_cursor; offset is not supported",
+    "Paid plans count returned cars; the demo key counts data requests and allows up to 20 cars per request",
+    "Che168 listings have no VIN: vin is always null",
+    "Photo links expire in about a day: store the car id and fetch a fresh record"
+  ]
+}

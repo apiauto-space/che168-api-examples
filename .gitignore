@@ -1,0 +1,10 @@
+.env
+.envrc
+.env.*
+cars.db
+since.txt
+*.csv
+che168-*/
+__pycache__/
+node_modules/
+*.db-journal

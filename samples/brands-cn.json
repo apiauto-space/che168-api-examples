@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Mercedes-Benz",
+    "count": 20262
+  },
+  {
+    "name": "Volkswagen",
+    "count": 19328
+  },
+  {
+    "name": "BMW",
+    "count": 17944
+  },
+  {
+    "name": "Audi",
+    "count": 13405
+  },
+  {
+    "name": "Toyota",
+    "count": 11878
+  },
+  {
+    "name": "BYD",
+    "count": 7981
+  },
+  {
+    "name": "Honda",
+    "count": 7968
+  },
+  {
+    "name": "Buick",
+    "count": 7073
+  },
+  {
+    "name": "Tesla",
+    "count": 5949
+  },
+  {
+    "name": "Porsche",
+    "count": 5919
+  },
+  {
+    "name": "Land Rover",
+    "count": 5264
+  },
+  {
+    "name": "Geely",
+    "count": 5121
+  },
+  {
+    "name": "Nissan",
+    "count": 4765
+  },
+  {
+    "name": "Ford",
+    "count": 4623
+  },
+  {
+    "name": "Haval",
+    "count": 3874
+  }
+]

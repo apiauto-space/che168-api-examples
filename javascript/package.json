@@ -1,0 +1,15 @@
+{
+  "name": "che168-api-examples",
+  "private": true,
+  "description": "Che168 API examples in JavaScript (Node.js, fetch, no dependencies)",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "first-request": "node first-request.mjs",
+    "all-pages": "node all-pages.mjs",
+    "price-drops": "node price-drops.mjs"
+  },
+  "license": "MIT"
+}

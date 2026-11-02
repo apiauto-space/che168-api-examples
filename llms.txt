@@ -1,0 +1,40 @@
+# che168-api-examples
+
+> Code examples (curl, Python, JavaScript, PHP) for reading Che168 used-car listings (China) through apiauto.space, a read-only REST API. Base URL https://api.apiauto.space/v1, header X-API-Key, market=cn. A free one-day demo key (100 requests) comes from the Telegram bot https://t.me/apiautospace_bot?start=demo. Not affiliated with Che168 or Autohome.
+
+Key facts:
+
+- Market: `cn` = Che168. Record ids look like `che168:60385167`.
+- Endpoints: GET /v1/cars (filters brand, model, trim, year_min, year_max, price_min, price_max, price_usd_min, price_usd_max, mileage_max, fuel, transmission, body_type, has_photos, is_active, q; sort; cursor pagination; limit up to 100, 20 on the demo), GET /v1/cars/{id}, GET /v1/changes (added, disappeared, price_drop, price_up since a moment), GET /v1/references/{brands,models,dictionaries,markets}, GET /v1/usage.
+- Prices are in CNY and in US dollars at the ECB daily rate. Che168 listings have no VIN: `vin` is null.
+- Paid plans count returned cars; the demo counts data requests. References, usage and photos are free.
+- Server-side only: CORS is off.
+- Client libraries: `pip install apiauto-space` (https://github.com/apiauto-space/apiauto-python), `npm i apiauto` (https://github.com/apiauto-space/apiauto-js), `composer require apiauto/apiauto` (https://github.com/apiauto-space/apiauto-php), `go get github.com/apiauto-space/apiauto-go` (https://github.com/apiauto-space/apiauto-go).
+
+## Examples
+
+- [curl: every request](https://github.com/apiauto-space/che168-api-examples/blob/main/curl/README.md)
+- [Python: first request](https://github.com/apiauto-space/che168-api-examples/blob/main/python/first_request.py)
+- [Python: keep a catalog in sync with SQLite](https://github.com/apiauto-space/che168-api-examples/blob/main/python/sync_catalog.py)
+- [Python: price drops](https://github.com/apiauto-space/che168-api-examples/blob/main/python/price_drops.py)
+- [Python: export to CSV](https://github.com/apiauto-space/che168-api-examples/blob/main/python/export_csv.py)
+- [Python: download photos](https://github.com/apiauto-space/che168-api-examples/blob/main/python/download_photos.py)
+- [JavaScript: first request](https://github.com/apiauto-space/che168-api-examples/blob/main/javascript/first-request.mjs)
+- [JavaScript: all pages with the cursor](https://github.com/apiauto-space/che168-api-examples/blob/main/javascript/all-pages.mjs)
+- [JavaScript: price drops](https://github.com/apiauto-space/che168-api-examples/blob/main/javascript/price-drops.mjs)
+- [PHP: first request](https://github.com/apiauto-space/che168-api-examples/blob/main/php/first-request.php)
+- [PHP: catalog sync from cron](https://github.com/apiauto-space/che168-api-examples/blob/main/php/sync-catalog.php)
+
+## Samples
+
+- [Che168 car](https://github.com/apiauto-space/che168-api-examples/blob/main/samples/che168-car.json)
+- [Page of cars](https://github.com/apiauto-space/che168-api-examples/blob/main/samples/cars-page-cn.json)
+- [Change feed page](https://github.com/apiauto-space/che168-api-examples/blob/main/samples/changes-page-cn.json)
+- [Price drops](https://github.com/apiauto-space/che168-api-examples/blob/main/samples/price-drops-cn.json)
+
+## Documentation
+
+- [Che168 API page](https://apiauto.space/en/che168-api/)
+- [API documentation](https://apiauto.space/en/docs/)
+- [OpenAPI schema](https://api.apiauto.space/openapi.json)
+- [Full documentation for LLMs](https://apiauto.space/llms-full.txt)

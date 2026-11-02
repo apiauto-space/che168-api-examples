@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "id": 3039479,
+      "car_id": "che168:60269589",
+      "market": "cn",
+      "type": "added",
+      "at": "2026-11-02T08:16:17.732614Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    },
+    {
+      "id": 3039480,
+      "car_id": "che168:60088945",
+      "market": "cn",
+      "type": "added",
+      "at": "2026-11-02T08:16:17.733908Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    },
+    {
+      "id": 3039481,
+      "car_id": "che168:60267973",
+      "market": "cn",
+      "type": "added",
+      "at": "2026-11-02T08:16:17.734770Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    },
+    {
+      "id": 3039482,
+      "car_id": "che168:59008493",
+      "market": "cn",
+      "type": "added",
+      "at": "2026-11-02T08:16:17.735141Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    },
+    {
+      "id": 3039483,
+      "car_id": "che168:60346084",
+      "market": "cn",
+      "type": "added",
+      "at": "2026-11-02T08:16:17.735878Z",
+      "old_price": null,
+      "new_price": null,
+      "pct": null
+    }
+  ],
+  "next_cursor": "eyJpZCI6MzAzOTUwOH0"
+}

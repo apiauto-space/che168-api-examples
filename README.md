@@ -133,6 +133,7 @@ answers 429 with `Retry-After`. Details: [limits](https://apiauto.space/en/docs/
 
 | Language | Package | Repository |
 |---|---|---|
+| Python and JavaScript, Che168 only | `pip install che168-api`, `npm i che168-api` | [che168-api](https://github.com/apiauto-space/che168-api) |
 | Python | `pip install apiauto-space` | [apiauto-python](https://github.com/apiauto-space/apiauto-python) |
 | JavaScript / TypeScript | `npm i apiauto` | [apiauto-js](https://github.com/apiauto-space/apiauto-js) |
 | PHP | `composer require apiauto/apiauto` | [apiauto-php](https://github.com/apiauto-space/apiauto-php) |
